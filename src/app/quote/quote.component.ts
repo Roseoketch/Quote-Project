@@ -8,7 +8,7 @@ import {Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes= [
-    new Quote(1,'Rose','Live once, live well',),
+    new Quote(1,'Rose','Live and let others live',),
     new Quote(2,'Rose Jacob', 'Giving up is not the option'),
   ];
 
