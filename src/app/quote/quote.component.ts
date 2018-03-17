@@ -1,6 +1,6 @@
 
 import { Component, OnInit } from '@angular/core';
-import {Quote} from '../quotes'
+import {Quote} from '../quote'
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
@@ -8,12 +8,12 @@ import {Quote} from '../quotes'
 })
 export class QuoteComponent implements OnInit {
   quotes= [
-    new Quote(1,'Vicky Toms','Live once, live well',),
-    new Quote(2,'Victor Biwott', 'You are who you think you are'),
+    new Quote(1,'Rose','Live once, live well',),
+    new Quote(2,'Rose Jacob', 'Giving up is not the option'),
   ];
 
   toogleDetails(index){
-    this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
+    this.quotes[index].showDescription= !this.quotes[index].showDescription;
   }
   deleteQuote(isComplete,index){
    if (isComplete){
