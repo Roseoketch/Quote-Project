@@ -11,7 +11,7 @@ export class QuoteComponent implements OnInit {
   quotes = [
     new Quote(1, 'Rose', 'Live and let others live', ),
     new Quote(2, 'Rosie', 'Giving up is not the option'),
-    new Quote(3, 'Life is a journey just keep going'),
+    new Quote(3, 'Perez', 'Life is a journey just keep going'),
   ];
 
   toogleDetails(index) {
