@@ -15,7 +15,7 @@ export class QuoteComponent implements OnInit {
   ];
 
   toogleDetails(index) {
-    this.quotes[index].showDescription= !this.quotes[index].showName;
+    this.quotes[index].showDescription= !this.quotes[index].showDescription;
   }
 
   deleteQuote(isComplete,index){
