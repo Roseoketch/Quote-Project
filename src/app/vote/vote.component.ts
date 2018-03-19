@@ -11,9 +11,10 @@ export class VoteComponent implements OnInit {
   @Output() isComplete = new EventEmitter<boolean>();
 
   quotes= [
-    new Quote(1,'Live once, live well', 'Vicky Toms'),
-    new Quote(2,'You are who you think you are', 'Victor Biwott'),
-  ];
+    new Quote(1, 'Rose', 'Live and let others live', ),
+    new Quote(2, 'Rosie', 'Giving up is not the option'),
+    new Quote(3, 'Life is a journey just keep going'),
+];
 
   uvotes = 0;
   dvotes = 0;

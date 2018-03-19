@@ -1,2 +1,18 @@
-<p>This quote was written by {{quote.author}}</p>
-<button class="btn btn-primary"  (click) = 'quoteComplete(true)'> Delete </button>
+<!-- <p>This quote was written by {{quote.name}}</p>
+<button class="btn btn-primary"  (click) = 'quoteDelete(true)'> Delete </button>
+<app-goal-details  [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-goal-details> -->
+<!-- <div class="container">
+    <div class="row" *ngFor="let goal of goals;let i = 'index'">
+        <div class="row">
+            <h4 id="{{i}}" appStrikethrough>{{goal.name}} due on {{goal.completeDate|date|uppercase}}</h4>
+            <button class="btn btn-primary" (click)='toogleDetails(i)'>Toogle Details</button>
+        </div>
+
+        <div class="row" *ngIf="goal.showDescription">
+        <app-goal-details  [goal]='goal' (isComplete)= 'deleteGoal($event,i)'></app-goal-details>
+    </div>
+
+</div>
+
+</div> -->
+<button class="btn btn-danger" (click) = 'quoteDelete(true)'> Delete Quote</button>
